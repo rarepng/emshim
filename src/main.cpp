@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
     bool probe = false;
     for (int i = 1; i < argc; i++) {
         std::string_view a = argv[i];
-        if (a == "--version" || a == "-E") {
+        if (a == "--version" || a == "-E" || a == "--build") {
             probe = true;
             break;
         }
