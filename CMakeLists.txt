@@ -76,3 +76,8 @@ target_include_directories(emshim
 
 
 
+install(TARGETS emshim
+    RUNTIME DESTINATION .
+)
+
+
